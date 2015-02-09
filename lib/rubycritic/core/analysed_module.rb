@@ -42,6 +42,22 @@ module Rubycritic
     def smells_at_location(location)
       smells.select { |smell| smell.at_location?(location) }
     end
+
+    def to_h
+      {
+        :name => name,
+        :pathname => pathname,
+        :churn => churn,
+        :committed_at => committed_at,
+        :complexity => complexity,
+        :duplication => duplication,
+        :methods_count => methods_count
+      }
+    end
+
+    def to_json(*a)
+      to_h.to_json(*a)
+    end
   end
 
 end

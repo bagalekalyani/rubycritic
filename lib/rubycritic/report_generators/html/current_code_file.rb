@@ -1,4 +1,4 @@
-require "rubycritic/report_generators/code_file"
+require "rubycritic/report_generators/html/code_file"
 
 module Rubycritic
   module Generator

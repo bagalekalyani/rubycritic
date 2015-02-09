@@ -1,5 +1,5 @@
-require "rubycritic/report_generators/base"
-require "rubycritic/report_generators/line"
+require "rubycritic/report_generators/html/base"
+require "rubycritic/report_generators/html/line"
 
 module Rubycritic
   module Generator

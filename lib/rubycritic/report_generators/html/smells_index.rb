@@ -1,4 +1,4 @@
-require "rubycritic/report_generators/base"
+require "rubycritic/report_generators/html/base"
 
 module Rubycritic
   module Generator

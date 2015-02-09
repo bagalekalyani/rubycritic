@@ -1,6 +1,6 @@
 require "erb"
 require "pathname"
-require "rubycritic/report_generators/view_helpers"
+require "rubycritic/report_generators/html/view_helpers"
 
 module Rubycritic
   module Generator

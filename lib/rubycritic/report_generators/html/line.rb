@@ -1,5 +1,5 @@
-require "rubycritic/report_generators/base"
 require "cgi"
+require "rubycritic/report_generators/html/base"
 
 module Rubycritic
   module Generator
